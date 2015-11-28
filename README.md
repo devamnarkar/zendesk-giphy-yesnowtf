@@ -1,5 +1,8 @@
-# zendesk-giphy-yesnowtf
+zendesk-giphy-yesnowtf
+======================
 
-## Demo using APIs of websites like 
-Giphy for GIFs
-Zendesk for Tickets
+Demo using APIs of following websites for purpose:   
+-------------------------------------------------
+Giphy for random gifs for any keyword  
+YesNoWTF for random yes - no gifs
+Zendesk for Generating Tickets of  
