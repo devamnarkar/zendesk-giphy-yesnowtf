@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/functions.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="row form-group">
+					<div class="col-md-10 col-md-offset-1">
+						<button class="btn btn-primary btn-lg btn-block" onclick="yesNoFunc()"> Generate YesNoWTF</button>
+					</div>
+				</div>
+
+				<div class="row image-display">
+					<div class="col-md-10 col-md-offset-1">				
+						<span id = "yesno"></span> 
+					</div>	
+				</div>	
+			</div>
+
+			<div class="col-md-4">
+				<div class="row form-group">
+					<div class="col-md-10 col-md-offset-1">
+						<input type="text" class="form-control" placeholder="Enter the Keyword" name="search" id="search_string"></input>
+					</div>
+				</div>
+
+				<div class="row form-group">
+					<div class="col-md-10 col-md-offset-1">
+						<button class="btn btn-default btn-lg btn-block" onclick="giphy()">Generate Giphy</button>
+					</div>
+				</div>
+
+				<div class="row image-display">
+					<div class="col-md-10 col-md-offset-1">				
+						<span id = "giphyme"></span>  
+					</div>	
+				</div>	
+			</div>
+
+
+			<div class="col-md-4">
+				<div class="row">
+					<div class="col-md-10 col-offset-1">
+						
+							<div class="form-group">
+									<input type="text" placeholder="Enter your Zendesk Username" class="form-control" name="z_uname" id="z_uname">
+							</div>
+
+							<div class="form-group">
+									<input type="text" placeholder="Enter your Zendesk API Key" class="form-control" name="z_api" id="z_api">
+							</div>
+
+							<div class="form-group">
+									<input type="text" placeholder="Enter your Zendesk Subdomain" class="form-control" name="z_subdomain" id="z_subdomain">
+							</div>
+
+							<div class="form-group">
+								<center>
+									<button name="formSubmit" onclick="showtickets()" class="btn btn-primary btn-lg btn-block">Generate Tickets</button>
+								</center>
+							</div> 
+					</div>	
+				</div>
+
+				<div class="row ztickets">
+					<div class="col-md-10 col-offset-1">
+						<div id="ztickets"></div>
+					</div>	
+				</div>	
+			</div>
+
+		</div>
+	</div>
+</body>
+</html>
